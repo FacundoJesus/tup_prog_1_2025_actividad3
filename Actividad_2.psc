@@ -2,7 +2,7 @@ Algoritmo Loteria
 	Definir num, cantPar, acumImpar, cantImpar, mayor, menor, contador Como Entero;
 	Definir promImpar Como Real;
 	
-	Escribir "Ingrese un número:";
+	Escribir "Ingrese un nÃºmero:";
 	Leer num;
 	
 	cantPar <- 0;
@@ -19,8 +19,8 @@ Algoritmo Loteria
 		cantImpar <- cantImpar + 1;
 	FinSi
 	
-	Para contador<-1 Hasta 20 Hacer
-		Escribir "Ingrese el siguiente número:";
+	Para contador<-1 Hasta 19 Hacer
+		Escribir "Ingrese el siguiente nÃºmero:";
 		Leer num;
 		Si num > mayor Entonces
 			mayor <- num;
